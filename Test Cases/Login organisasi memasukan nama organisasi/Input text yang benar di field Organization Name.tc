@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Login organisasi memasukan nama organisasi</name>
+   <name>Input text yang benar di field Organization Name</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>a745c02c-9a62-4ba8-8a06-23b5591b0e10</testCaseGuid>
+   <testCaseGuid>36c7b4e5-442a-4e94-b759-6c8b7c9e98ac</testCaseGuid>
 </TestCaseEntity>

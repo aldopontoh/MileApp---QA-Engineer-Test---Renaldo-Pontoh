@@ -17,7 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://taskdev.mile.app/login')
+WebUI.openBrowser(GlobalVariable.url)
+
+WebUI.navigateToUrl('https://taskdev.mile.app/login')
 
 WebUI.maximizeWindow()
+
+WebUI.waitForElementPresent(findTestObject('Page_MileApp_Login/txtField_Organization_Name'), 10)
+
+WebUI.setText(findTestObject('Page_MileApp_Login/txtField_Organization_Name'), GlobalVariable.valid_org_name)
+
+WebUI.sendKeys(findTestObject('Page_MileApp_Login/txtField_Organization_Name'), Keys.chord(Keys.ENTER))
+
+WebUI.waitForElementPresent(findTestObject('Page_MileApp_Login/txtField_username'), 5)
+
+WebUI.setText(findTestObject('Page_MileApp_Login/txtField_username'), GlobalVariable.min_password)
+
+WebUI.verifyElementPresent(findTestObject('Page_MileApp_Login/txt_The password field must be at least 6 characters'), 0)
+
+WebUI.closeBrowser()
 

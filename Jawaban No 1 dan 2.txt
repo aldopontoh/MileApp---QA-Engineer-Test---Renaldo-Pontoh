@@ -1,0 +1,20 @@
+----------------------------QA Engineer Test----------------------------
+
+1. Sebutkan 3 kesalahan besar yang paling sering dilakukan oleh QA, dan berikan solusinya agar tidak terjadi atau terulang kembali.
+Jawab : 
+-Tidak memahami secara teliti suatu produk
+-Pemilihan bahasa dalam penulisan testcase, test scenario dan test plan
+-Komunikasi yang kurang baik dalam penyampaian bug
+Solusi -> Jangan malu untuk bertanya, jangan takut salah dan aktif saat grooming dalam pembahasan suatu produk yang akan didevelop. Sebaiknya 
+menggunakan bahasa yang mudah dimengerti oleh semua orang yang terlibat dalam pengembangan suatu system/aplikasi. Komunikasi yang aktif dengan 
+anggota team selama proses development produk.
+
+2. Jelaskan poin-poin terpenting yang harus diperhatikan dalam menganalisa dan membuat skenario test.
+Jawab : 
+-Requirement -> Pada tahap ini QA harus memahami flow sebuah aplikasi yang dites, bagaimana cara aplikasi tersebut berjalan 
+serta memastikan requirement sudah selaras atau sudah sesuai dengan tujuan dari pengembangan produk. 
+-Mudah Dimengerti -> Alangkah baiknya menggunakan bahasa yang sederhana dan mudah dipahami dalam pembuatan test scenario. Sehingga anggota team 
+dapat memahami skenario yang dibuat
+-End-user mind-> QA harus memiliki mindset bahwa ia adalah seorang end-user yang akan menggunakan suatu produk sehingga bisa mempertimbangkan 
+kemudahan dalam penggunaan aplikasi untuk mendapatkan customer satisfaction terhadap produk yang dikembangkan
+
